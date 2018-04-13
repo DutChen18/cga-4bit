@@ -1,0 +1,152 @@
+@import "syntax-variables";
+
+.editor {
+	background-color: @syntax-background-color;
+	color: @syntax-text-color;
+
+	.wrap-guide {
+		background-color: @syntax-wrap-guide-color;
+	}
+
+	.indent-guide {
+		color: @syntax-indent-guide-color;
+	}
+
+	.invisible-character {
+		color : @syntax-invisible-character-color;
+	}
+
+	.gutter {
+		background-color: @syntax-gutter-background-color;
+		color: @syntax-gutter-text-color;
+
+		.line-number {
+			&.cursor-line {
+				background-color: @syntax-gutter-background-color-selected;
+				color: @syntax-gutter-text-color-selected;
+			}
+		}
+	}
+
+	.cursor {
+		color: @syntax-cursor-color;
+	}
+
+	.selection .region {
+		background-color: @syntax-selection-color;
+	}
+}
+
+.syntax--comment {
+	color: @gray;
+}
+
+.syntax--entity {
+	color: @cyan;
+	&.syntax--name.syntax--type, &.syntax--name.syntax--class {
+		color: @lcyan;
+	}
+	&.syntax--name.syntax--function {
+		color: @cyan;
+	}
+	&.syntax--name.syntax--section {
+		color: @lcyan;
+	}
+	&.syntax--name.syntax--tag {
+		color: @cyan;
+	}
+	&.syntax--other.syntax--inherited-class {
+		color: @lcyan;
+	}
+	&.syntax--other.syntax--attribute-name {
+		color: @lcyan;
+	}
+}
+
+.syntax--keyword {
+	color: @magenta;
+	&.syntax--control {
+		color: @magenta;
+	}
+	&.syntax--operator {
+		color: @lmagenta;
+	}
+}
+
+.syntax--storage {
+	&.syntax--modifier {
+		color: @blue;
+	}
+	&.syntax--type {
+		color: @lblue;
+	}
+}
+
+.syntax--constant {
+	color: @yellow;
+	&.syntax--character.syntax--escape {
+		color: @lgreen;
+	}
+	&.syntax--numeric {
+		color: @yellow;
+	}
+	&.syntax--other.syntax--color {
+		color: @yellow;
+	}
+	&.syntax--other.syntax--language {
+		color: @lyellow;
+	}
+}
+
+.syntax--variable {
+	color: @red;
+	&.syntax--parameter {
+		color: @red;
+	}
+	&.syntax--language {
+		color: @lred;
+	}
+}
+
+.syntax--string {
+	color: @green;
+	&.syntax--regexp {
+		color: @lgreen;
+	}
+	&.syntax--other.syntax--link {
+		color: @lgreen;
+	}
+}
+
+.syntax--support {
+	&.syntax--class {
+		color: @lcyan;
+	}
+	&.syntax--function {
+		color: @cyan;
+	}
+	&.syntax--type {
+		color: @lblue;
+	}
+	&.syntax--constant {
+		color: @lyellow;
+	}
+	&.syntax--variable {
+		color: @lred;
+	}
+}
+
+.syntax--markup {
+	&.syntax--bold {
+		font-weight: bold;
+	}
+	&.syntax--italic {
+		font-style: italic;
+	}
+	&.syntax--underline {
+		text-decoration: underline;
+		&.syntax--link {
+			color: @lgreen;
+		}
+	}
+}

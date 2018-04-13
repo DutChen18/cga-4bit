@@ -1,0 +1,20 @@
+{
+  "name": "cga-4bit-syntax",
+  "theme": "syntax",
+  "version": "0.0.1",
+  "description": "4 bit CGA syntax theme",
+  "repository": {
+	"type": "git",
+	"url": "http://github.com/DutChen18/cga-4bit.git"
+  },
+  "keywords": [
+    "syntax",
+    "theme",
+	"cga",
+	"4bit",
+	"dos"
+  ],
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
