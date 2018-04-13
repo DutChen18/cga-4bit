@@ -1,7 +1,7 @@
 {
   "name": "cga-4bit-syntax",
   "theme": "syntax",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "4 bit CGA syntax theme",
   "repository": {
 	"type": "git",
