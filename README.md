@@ -2,7 +2,7 @@ CGA 4 bit syntax theme
 ======================
 
 A syntax theme using the 16 CGA colors.  
-Use with [IBM PC BIOS](http://google.com) font for ultimate nostalgia.
+Use with [IBM PC BIOS](https://int10h.org/oldschool-pc-fonts/fontlist/) font for ultimate nostalgia.
 
 Colors
 ======
